@@ -1,0 +1,35 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:4763",
+      "sslPort": 44322
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "weatherforecast",
+      "environmentVariables": {
+        "VONAGE_BRAND_NAME": "ajyal.bh",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "VONAGE_API_KEY": "e6eb55e6",
+        "VONAGE_API_SECRET": "sLSc4lTODp74wFtd"
+      }
+    },
+    "MarketPlace.API": {
+      "commandName": "Project",
+      "launchUrl": "http://localhost:5000/index.html",
+      "applicationUrl": "http://localhost:5000",
+      "environmentVariables": {
+        "VONAGE_BRAND_NAME": "ajyal.bh",
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "VONAGE_API_KEY": "e6eb55e6",
+        "VONAGE_API_SECRET": "sLSc4lTODp74wFtd"
+      }
+    }
+  }
+}

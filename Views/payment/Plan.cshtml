@@ -1,0 +1,88 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+<style>
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid #3a8185;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #3a8185 transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.all-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+</style>
+
+<div class="all-content">
+<div>
+    <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+</div>
+
+
+<div id="page_content" style="display: none;">
+  
+<input id="transactionId" readonly name="transactionId" class="form-control text-center" 
+style=" max-width: 100% !important;" 
+value="@ViewBag.transactionId" />
+  
+  
+<input id="transactionType" readonly name="transactionType" class="form-control text-center" 
+style=" max-width: 100% !important;" 
+value="@ViewBag.transactionType" />
+  
+
+</div>
+</div>
+
+
+
+<script type="text/javascript">
+
+ var transactionId = document.getElementById('transactionId').value;
+setTimeout(function(){ 
+
+    window.location.href = 'https://panel.sakhtiran.com/#/vendors/payPlan?paymentId='+transactionId+'&token=paymentGateway&PayerID=sakhtiran';
+    
+ }, 1000);
+   
+
+</script>

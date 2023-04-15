@@ -1,0 +1,141 @@
+﻿<Properties StartupConfiguration="{7276554D-68C6-4759-9F7F-C213CB5D6FCE}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Data/Repositories/Repository/AuthRepository.cs">
+    <Files>
+      <File FileName="appsettings.Development.json" />
+      <File FileName="Program.cs" />
+      <File FileName="Startup.cs" />
+      <File FileName="Resources/Language/Ar.json" />
+      <File FileName="Controllers/Website/HomeController.cs" />
+      <File FileName="Services/IService/IAuthService.cs" />
+      <File FileName="Controllers/Panel/HelpController.cs" />
+      <File FileName="MyMiddleware.cs" />
+      <File FileName="Controllers/Website/ProfileController.cs" />
+      <File FileName="Controllers/Panel/AccountingController.cs" />
+      <File FileName="Data/Models/MarketPlaceDbContext.cs" />
+      <File FileName="PaymentGateway/CredimaxHelper/CredimaxAPI.cs" />
+      <File FileName="Data/Models/TGoods.cs" />
+      <File FileName="Data/Models/TGoodsSpecificationOptions.cs" />
+      <File FileName="Data/Models/TLanguage.cs" />
+      <File FileName="Services/Service/BackgroundService.cs" />
+      <File FileName="Data/Models/Job.cs" />
+      <File FileName="Data/Models/Set.cs" />
+      <File FileName="Data/Models/TCallRequest.cs" />
+      <File FileName="Data/Repositories/IRepository/IAuthRepository.cs" Line="17" Column="21" />
+      <File FileName="Data/Repositories/Repository/AuthRepository.cs" Line="118" Column="34" />
+      <File FileName="Data/Repositories/Repository/AccountingRepository.cs" />
+      <File FileName="Data/Dtos/Accept/AcceptDto.cs" />
+      <File FileName="Data/Constants/Constants.cs" />
+      <File FileName="Data/AutoMapper/AutoMappperProfile.cs" />
+      <File FileName="Data/Enums/CallRequestEnum.cs" />
+      <File FileName="Data/Enums/CurrencyEnum.cs" />
+      <File FileName="Services/Service/ShopService.cs" />
+      <File FileName="Services/IService/IBackgroundService.cs" />
+      <File FileName="workspace.sql" />
+      <File FileName="Untitled.json" />
+      <File FileName="Data/Models/TCustomerBankCard.cs" />
+      <File FileName="Services/Service/CustomerService.cs" />
+      <File FileName="Helper/Response.cs" />
+      <File FileName="Data/Dtos/Accept/AcceptNullDto.cs" />
+      <File FileName="Data/Dtos/City/CityDto.cs" />
+      <File FileName="Data/Dtos/City/CityFormDto.cs" />
+      <File FileName="Data/Dtos/City/CityGetDto.cs" />
+      <File FileName="Services/IService/IShopService.cs" />
+      <File FileName="Data/Repositories/Repository/ShopRepository.cs" />
+      <File FileName="Controllers/Website/UserActivityController.cs" />
+      <File FileName="Helper/Extentions.cs" />
+      <File FileName="Data/Models/TCity.cs" />
+      <File FileName="Data/Repositories/Repository/CityRepository.cs" />
+      <File FileName="Data/Repositories/Repository/CountryRepository.cs" />
+      <File FileName="Data/Repositories/Repository/CategoryRepository.cs" />
+      <File FileName="Controllers/Panel/CityController.cs" />
+      <File FileName="Services/Service/AccountingService.cs" />
+      <File FileName="Services/Service/AuthService.cs" Line="258" Column="58" />
+      <File FileName="Controllers/AuthController.cs" />
+      <File FileName="Data/Repositories/IRepository/ICustomerRepository.cs" />
+      <File FileName="Data/Repositories/Repository/CustomerRepository.cs" />
+      <File FileName="Data/Dtos/User/UserUpdateDto.cs" />
+      <File FileName="Data/Repositories/IRepository/IUserActivityRepository.cs" />
+      <File FileName="Data/Repositories/Repository/UserActivityRepository.cs" />
+      <File FileName="Data/Models/TUser.cs" />
+      <File FileName="Helper/Pagination.cs" />
+      <File FileName="Helper/ApiResponse.cs" />
+      <File FileName="Helper/ConvertList.cs" />
+      <File FileName="Data/Dtos/User/ChangeUserPasswordDto.cs" />
+      <File FileName="Data/Dtos/Header/HeaderParseDto.cs" />
+      <File FileName="Data/Dtos/Token/TokenParseDto.cs" />
+      <File FileName="key.json" />
+      <File FileName="appsettings.json" />
+      <File FileName="Data/Dtos/User/UserLoginDto.cs" />
+      <File FileName="Data/Dtos/User/UserAccessDto.cs" />
+      <File FileName="Data/Dtos/User/GoogleResponseDto.cs" />
+      <File FileName="Data/Dtos/Category/CategoryAddGetDto.cs" />
+      <File FileName="Data/Dtos/Category/CategoryIdsType.cs" />
+      <File FileName="Data/Dtos/Token/TokenDto.cs" />
+      <File FileName="Data/Dtos/Province/ProvinceDto.cs" />
+      <File FileName="Data/Dtos/Province/ProvinceFormDto.cs" />
+      <File FileName="Data/Dtos/Province/ProvinceGetDto.cs" />
+      <File FileName="Data/Repositories/IRepository/IProvinceRepository.cs" />
+      <File FileName="Data/Repositories/Repository/ProvinceRepository.cs" />
+      <File FileName="Data/Models/TProvince.cs" />
+      <File FileName="Data/Models/TShop.cs" />
+      <File FileName="Data/Models/List.cs" />
+      <File FileName="Data/Models/TBankTransactions.cs" />
+      <File FileName="PostServices/Aramex/Aramex.cs" />
+      <File FileName="PaymentGateway/PaypalHelper/PayPalAccessToken.cs" />
+      <File FileName="PaymentGateway/PaypalHelper/PayPalAPI.cs" />
+      <File FileName="PostServices/IranPost/IranPost.cs" />
+      <File FileName="Data/Dtos/User/UserRegisterDto.cs" />
+      <File FileName="Data/Dtos/User/SocialRegisterDto.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MarketPlace.API" expanded="True">
+            <Node name="MarketPlace.API" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True">
+                <Node name="Website" expanded="True" />
+              </Node>
+              <Node name="Data" expanded="True">
+                <Node name="AutoMapper" expanded="True" />
+                <Node name="Dtos" expanded="True">
+                  <Node name="Province" expanded="True" />
+                  <Node name="Token" expanded="True" />
+                  <Node name="User" expanded="True" />
+                </Node>
+                <Node name="Repositories" expanded="True">
+                  <Node name="IRepository" expanded="True" />
+                  <Node name="Repository" expanded="True">
+                    <Node name="AuthRepository.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Helper" expanded="True" />
+              <Node name="PaymentGateway" expanded="True">
+                <Node name="PaypalHelper" expanded="True" />
+              </Node>
+              <Node name="PostServices" expanded="True">
+                <Node name="Aramex" expanded="True" />
+                <Node name="IranPost" expanded="True" />
+              </Node>
+              <Node name="Services" expanded="True">
+                <Node name="IService" expanded="True" />
+                <Node name="Service" expanded="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MarketPlace.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
