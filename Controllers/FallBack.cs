@@ -5,7 +5,7 @@ namespace MarketPlace.API.Controllers.Panel
 {
     public class FallBack : Controller
     {
-        [HttpGet]   
+        [HttpGet]     
         public IActionResult Index()
         {
             return PhysicalFile(Path.Combine(Directory.GetCurrentDirectory(),
